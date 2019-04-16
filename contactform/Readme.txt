@@ -1,2 +1,2 @@
 Fully working PHP/AJAX contact form is available in the pro version.
-You can buy it from: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
+You can buy it from: https://bootstrapmade.com/buy/?theme=eBusiness

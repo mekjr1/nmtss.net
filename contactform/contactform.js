@@ -90,13 +90,9 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize();
-    var action = $(this).attr('action');
-    if( ! action ) {
-      action = 'contactform/contactform.php';
-    }
     $.ajax({
       type: "POST",
-      url: action,
+      url: "contactform/contactform.php",
       data: str,
       success: function(msg) {
         // alert(msg);
