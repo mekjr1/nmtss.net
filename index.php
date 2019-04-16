@@ -361,7 +361,8 @@ p, .p {
   <!-- End About area -->
 
   <!-- Start Service area -->
-  <div id="services" class="services-area area-padding">
+  <div id="accordion">
+  <div id="services" class="services-area area-padding" >
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -373,10 +374,15 @@ p, .p {
           <section class="container pt-3 mb-3">
          <div class="row pt-5 mb-50 mt-30">
         <div class="col-lg-4 col-sm-6 mb-30 pb-5" style="margin-bottom: 50px;">
-            <a class="card" href="#">
+            <div class="card">
                 <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-globe fa-3x head-icon"></i></div>
                 <div class="card-body text-center">
-                    <h3 class="card-title pt-1">Servicos de Consultoria virada para Internet</h3>
+                    <h3 style="margin-top: 30px; margin-bottom: 30px" class="card-title pt-1">Consultoria virada para Internet</h3>
+
+                    <a class="btn btn-primary btn-sm collapsed" data-parent="#accordion" href="#servico1" data-toggle="collapse" href="#servico1" role="button" aria-expanded="false" aria-controls="servico1" style="margin-bottom: 30px;">saber mais</a>
+
+
+                    <div class="collapse" id="servico1" >
                     <div class="card-text text-sm"> 
                 <ul>
                   
@@ -390,13 +396,20 @@ p, .p {
 
               
                 </div>
-            </a>
+              </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-30 pb-5" style="margin-bottom: 50px;">
-            <a class="card" href="#">
+
+        <div class="col-lg-4 col-sm-6 pb-5" style="margin-bottom: 50px;">
+            <div class="card">
                 <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-headset fa-3x head-icon"></i></div>
                 <div class="card-body text-center">
-                    <h3 class="card-title pt-1">Assistência e suporte informático</h3>
+                    <h3 style="margin-top: 30px; margin-bottom: 30px" class="card-title pt-1">Assistência e suporte informático</h3>
+
+                    <a class="btn btn-primary btn-sm collapsed" data-toggle="collapse" href="#servico2" role="button" aria-expanded="false" aria-controls="servico2" style="margin-bottom: 30px;">saber mais</a>
+
+
+                    <div class="collapse" id="servico2" data-parent="#accordion">
                     <div class="card-text text-sm">
                         
                         <ul>
@@ -414,16 +427,21 @@ p, .p {
 
                     </div>
                 </div>
-            </a>
+              </div>
+            </div>
         </div>
 
 
 
         <div class="col-lg-4 col-sm-6 mb-30 pb-5" style="margin-bottom: 70px;">
-            <a class="card" href="#">
+            <a class="card" >
                 <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-chart-line fa-3x head-icon"></i></div>
                 <div class="card-body text-center">
-                    <h3 class="card-title pt-1">Consultoria de gestão</h3>
+                    <h3 style="margin-top: 30px; margin-bottom: 30px" class="card-title pt-1">Consultoria de gestão</h3>
+
+                    <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#servico3" role="button" aria-expanded="false"  aria-controls="servico3" style="margin-bottom: 30px;">saber mais</button>
+
+                    <div class="collapse" id="servico3" data-parent="#accordion">
                     <div class="card-text text-sm">
                         
 
@@ -440,17 +458,25 @@ p, .p {
 
                     </div>
                 </div>
+              </div>
             </a>
         </div>
 
+      </div>
 
+
+      <div class="row pt-5 mb-50 mt-30">
 
 
         <div class="col-lg-4 col-sm-6 mb-30 pb-5" style="margin-bottom: 50px;">
             <a class="card" href="#">
                 <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-camera-retro fa-3x head-icon"></i></div>
                 <div class="card-body text-center">
-                    <h3 class="card-title pt-1">Marketing Digital e Publicidade</h3>
+                    <h3 style="margin-top: 30px; margin-bottom: 30px" class="card-title pt-1">Marketing Digital e Publicidade</h3>
+
+                    <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#servico4" role="button" aria-expanded="false" aria-controls="servico3" data-parent="#accordion" style="margin-bottom: 30px;">saber mais</button>
+
+                    <div class="collapse" id="servico4">
                     <div class="card-text text-sm"> 
                         
 
@@ -470,6 +496,7 @@ p, .p {
 
                     </div>
                 </div>
+              </div>
             </a>
         </div>
 
@@ -480,7 +507,10 @@ p, .p {
             <a class="card" href="#">
                 <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-book fa-3x head-icon"></i></div>
                 <div class="card-body text-center">
-                    <h3 class="card-title pt-1">Formações Profissionais</h3>
+                    <h3 style="margin-top: 30px; margin-bottom: 30px" class="card-title pt-1">Formações Profissionais</h3>
+                    <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#servico5" role="button" aria-expanded="false" aria-controls="servico5" data-parent="#accordion" style="margin-bottom: 30px;">saber mais</button>
+
+                    <div class="panel-collapse collapse" id="servico5">
                     <div class="card-text text-sm">
                         
                     <ul>
@@ -501,6 +531,7 @@ p, .p {
 
                     </div>
                 </div>
+              </div>
             </a>
         </div>
 
@@ -508,7 +539,12 @@ p, .p {
             <a class="card" href="#">
                 <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-chart-pie fa-3x head-icon"></i></div>
                 <div class="card-body text-center">
-                    <h3 class="card-title pt-1">Consultoria e auditoria em SI/TI</h3>
+                    <h3 style="margin-top: 30px; margin-bottom: 30px" class="card-title pt-1">Consultoria e auditoria em SI/TI</h3>
+
+                    <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#servico6" role="button" aria-expanded="false" data-parent="#accordion" aria-controls="servico6" style="margin-bottom: 30px;">saber mais</button>
+
+
+                    <div class="panel-collapse collapse" id="servico6">
                     <div class="card-text text-sm">
                         
 
@@ -531,9 +567,11 @@ p, .p {
 
                     </div>
                 </div>
+              </div>
             </a>
         </div>
 
+</div>
 
 
 
@@ -545,7 +583,7 @@ p, .p {
 </div>
 </div>
 </div></div>
-
+</div>
 
   <!-- End Service area -->
 
@@ -981,7 +1019,7 @@ p, .p {
                   <h2><span>NM</span>TSS</h2>
                 </div>
 
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+              
                 <div class="footer-icons">
                   <ul>
                     <li>
@@ -1005,10 +1043,8 @@ p, .p {
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="footer-content">
               <div class="footer-head">
-                <h4>information</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
+                <h4>informações</h4>
+                
                 <div class="footer-contacts">
                   <p><span>cel:</span> +258 23 36 44 69 </p>
                   <p><span>Email:</span>info@nmtss.net</p>
