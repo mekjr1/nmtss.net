@@ -175,17 +175,17 @@ p, .p {
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
                 <!-- Brand -->
                 <a class="navbar-brand page-scroll sticky-logo" href="index.html">
                   <h1><span>NM</span>TSS</h1>
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <img src="img/logo.png" alt="" title=""> -->
-								</a>
+                </a>
               </div>
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
@@ -325,8 +325,8 @@ p, .p {
           <div class="well-left">
             <div class="single-well">
               <a href="#">
-								  <img src="img/about/1.jpg" alt="">
-								</a>
+                  <img src="img/about/1.jpg" alt="">
+                </a>
             </div>
           </div>
         </div>
@@ -394,7 +394,7 @@ p, .p {
         </div>
         <div class="col-lg-4 col-sm-6 mb-30 pb-5" style="margin-bottom: 50px;">
             <a class="card" href="#">
-                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fab fa-teamspeak fa-3x head-icon"></i></div>
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-headset fa-3x head-icon"></i></div>
                 <div class="card-body text-center">
                     <h3 class="card-title pt-1">Assistência e suporte informático</h3>
                     <div class="card-text text-sm">
@@ -597,24 +597,24 @@ p, .p {
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-										<img src="img/team/Meque.png" alt="">
-									</a>
+                    <img src="img/team/Meque.png" alt="">
+                  </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
                       <a href="#">
-													<i class="fab fa-facebook"></i>
-												</a>
+                          <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fab fa-twitter"></i>
-												</a>
+                          <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fab fa-instagram"></i>
-												</a>
+                          <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -630,24 +630,24 @@ p, .p {
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-										<img src="img/team/Kelven.jpg" alt="">
-									</a>
+                    <img src="img/team/Kelven.jpg" alt="">
+                  </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
                       <a href="#">
-													<i class="fab fa-facebook"></i>
-												</a>
+                          <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fab fa-twitter"></i>
-												</a>
+                          <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fab fa-instagram"></i>
-												</a>
+                          <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -663,24 +663,24 @@ p, .p {
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-										<img src="img/team/Emidio.jpg" alt="">
-									</a>
+                    <img src="img/team/Emidio.jpg" alt="">
+                  </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
                       <a href="#">
-													<i class="fab fa-facebook"></i>
-												</a>
+                          <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fab fa-twitter"></i>
-												</a>
+                          <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fab fa-instagram"></i>
-												</a>
+                          <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -704,8 +704,8 @@ p, .p {
     <div class="work-us">
       <div class="work-left-text">
         <a href="#">
-						<img src="img/slider/slider1.jpg" alt="">
-					</a>
+            <img src="img/slider/slider1.jpg" alt="">
+          </a>
       </div>
       <div class="work-right-text text-center">
         <h2>Trabalhe conosco</h2>
@@ -733,16 +733,16 @@ p, .p {
             <div class="awesome-menu ">
               <ul class="project-menu">
                 <li>
-                  <a href="#" class="active" data-filter="*">All</a>
+                  <a href="#" class="active" data-filter="*">Tudo</a>
                 </li>
                 <li>
                   <a href="#" data-filter=".development">Desenvolvimento Web</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".design">Design</a>
+                  <a href="#" data-filter=".desktop">Design</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".photo">Desenvolvimento Mobile</a>
+                  <a href="#" data-filter=".mobile">Desenvolvimento Mobile</a>
                 </li>
               </ul>
             </div>
@@ -767,7 +767,7 @@ p, .p {
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12 development">
             <div class="single-awesome-project">
               <div class="awesome-img">
                 <a href="https:www.musicapromo.com"> <img src="img/portfolio/musicapromo.png" alt="" /></a>
@@ -784,7 +784,7 @@ p, .p {
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design">
+          <div class="col-md-4 col-sm-4 col-xs-12 development">
             <div class="single-awesome-project">
               <div class="awesome-img">
                 <a href=""><img src="img/portfolio/txunga.jpg" alt="" /></a>
@@ -803,7 +803,7 @@ p, .p {
           
         
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 development">
+          <div class="col-md-4 col-sm-4 col-xs-12 development mobile">
             <div class="single-awesome-project">
               <div class="awesome-img">
                 <a href="https:www.mensageiro.info"><img src="img/portfolio/mensageiro.png" alt="" /></a>
