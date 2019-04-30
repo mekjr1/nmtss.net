@@ -20,5 +20,3 @@ $headers = "De:". $from;
 mail($to, $subject, $message, $headers);
 
 echo "A mensagem de e-mail foi enviada.";
-
-}
