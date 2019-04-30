@@ -17,6 +17,13 @@ $message = $_POST["message"];
 
 $headers = "De:". $from;
 
-mail($to, $subject, $message, $headers);
+if( mail($to, $subject, $message, $headers)){
 
 echo "A mensagem de e-mail foi enviada.";
+}else{
+
+
+echo "Falha ao enviar";
+
+}
+
