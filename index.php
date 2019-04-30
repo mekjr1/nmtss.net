@@ -730,7 +730,39 @@ p, .p {
             </div>
           </div>
           <!-- End column -->
-         
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                    <img style ="height: 380px;" src="img/team/Irshaad Take1.jpg" alt="">
+                  </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Irshaad Dadabay</h4>
+                <p>Marketing consultant</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
         </div>
       </div>
     </div>
@@ -748,7 +780,7 @@ p, .p {
       <div class="work-right-text text-center">
         <h2>Trabalhe conosco</h2>
         <h5>Junte-se a nos para criar o futuro.</h5>
-        <a href="#contact" class="ready-btn">Contact us</a>
+        <a href="#contact" class="ready-btn">Contacte-nos</a>
       </div>
     </div>
   </div>
