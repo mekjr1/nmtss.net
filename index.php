@@ -1007,11 +1007,12 @@ p, .p {
           <!-- End Google Map -->
 
           <!-- Start  contact -->
+
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="form contact-form">
               <div id="sendmessage">A sua Mensagem foi enviada. obrigado!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="emails.php" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
@@ -1033,6 +1034,8 @@ p, .p {
             </div>
           </div>
           <!-- End Left contact -->
+
+
         </div>
       </div>
     </div>

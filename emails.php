@@ -1,15 +1,7 @@
 
+<?php  
 
 
-
-
-
-<?php
-
-
-
-
-function email(){
 
 ini_set('display_errors', 1);
 
@@ -17,11 +9,11 @@ error_reporting(E_ALL);
 
 $from = "testing@nmtss.net";
 
-$to = "kelveninayatt@gmail.com";
+$to = $_POST["email"];
 
-$subject = "Verificando o correio do PHP";
+$subject = $_POST["subject"];
 
-$message = "O correio do PHP funciona bem";
+$message = $_POST["message"];
 
 $headers = "De:". $from;
 
@@ -29,8 +21,4 @@ mail($to, $subject, $message, $headers);
 
 echo "A mensagem de e-mail foi enviada.";
 
-
-
 }
-
-?>
