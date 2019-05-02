@@ -19,7 +19,7 @@ if($_POST) {
  
      
     if(isset($_POST['subject'])) {
-        $concerned_department = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+        $email_title = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
     }
      
     if(isset($_POST['visitor_message'])) {
