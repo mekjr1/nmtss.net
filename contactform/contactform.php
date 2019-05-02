@@ -4,7 +4,6 @@ if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
     $email_title = "";
-    $concerned_department = "";
     $visitor_message = "";
      
     if(isset($_POST['name'])) {
@@ -22,8 +21,8 @@ if($_POST) {
         $email_title = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
     }
      
-    if(isset($_POST['visitor_message'])) {
-        $visitor_message = htmlspecialchars($_POST['visitor_message']);
+    if(isset($_POST['message'])) {
+        $visitor_message = htmlspecialchars($_POST['message']);
     }
      
     
